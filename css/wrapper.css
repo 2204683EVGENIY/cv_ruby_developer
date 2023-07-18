@@ -1,0 +1,42 @@
+body {
+  flex-grow: 3;
+}
+
+.mb {
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+.width {
+  flex-grow: 3
+}
+
+.mb-sm {
+  margin-bottom: 0px;
+  padding: 0px;
+}
+
+.max-size {
+  max-height: 300px;
+  max-width: 300px;
+}
+
+.max-height {
+  max-height: 75px;
+}
+
+.font-big {
+  font-size: 28px;
+}
+
+.font-sm {
+  font-size: 20px;
+}
+
+@media (max-width: 375px) {
+
+  .mt-none {
+  margin-top: 0px !important;  
+  }
+
+}
